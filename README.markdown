@@ -1,14 +1,11 @@
-# GISIII -  GeoSensors - CAI Haojun
+# Geographic Sensing and Visualization
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/haojuncai/pen/ZEYLMqM](https://codepen.io/haojuncai/pen/ZEYLMqM).
-
-## Authors 
-Haojun Cai
+The webpage can be accessible at [link](https://codepen.io/haojuncai/full/ZEYLMqM).
 
 ## Introduction
-* This is a coursework for the GIS III of Geomatics Master program in ETH Zurich 2020.  
-* This coursework collected ambient environment data using Sensebox, and created a responsive Webpage with self-collected Sensebox data and other opensource data using ArcGIS server web services.
+* This is a coursework for the GIS III of Geomatics Master program at ETH Zurich.  
+* This coursework collected ambient environment data using Sensebox, and created a responsive Webpage using ArcGIS server web services with self-collected Sensebox data and other opensource data. It was created on CodePen.io tool.
 
 ## Demo
 * Screenshot of Webpage
-![Screenshot of welcome page](https://github.com/SherryJYC/Multi-Media-Carto-Project-2020/blob/master/public/img/title_img.png)
+![Screenshot of welcome page](https://github.com/HaojunCai/Geo-Sensing-Visualization/blob/main/img/demo.png)
