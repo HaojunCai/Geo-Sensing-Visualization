@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - GISIII -  GeoSensors - CAI Haojun</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Explore Your Living Space</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css">
+  <script src="https://js.arcgis.com/4.9/"></script>
+</head>
+
+<body>
+  <div id="viewDiv">
+    <div id="datainfo">Data collected at around 3pm on 30/11/2019</div>
+  </div>
+</body>
+
+<body>
+  <div id="viewDiv">
+    <div id="fieldinfo">
+      Comfortable warmth: 18°C<br>
+      Ideal humidity: 30%-60%<br>
+      Normal illumination: 500-1000 lx<br>
+      PM10 safe level: ＜ 20 μg/m³<br>
+      Very low UV Index: 0-2<br>
+    </div>
+  </div>
+</body>
+  
+<template id="maptextTemplate">
+  <div class="title">About Map</div>
+  <div class="content">The map shows one simple way to explore our daily living space. It consists of two steps. First, collect data ourselves by using Sensebox to measure the ambient environment data, including the most common attributes, e.g., the temperature, humidity, illuminant level, PM10, UV Index, PM 2.5, etc with GPS location. Second, visualize the results on Map in combination with external open-source data, to get an overview of everyday environments, and what we need to pay attention to. Some referenced values for chosen fields are shown at the bottom right corner.<br><br>
+    It is suggested to either check 'Sensebox data distribution' to have an overall look, or check 'Sensebox data info' and 'Opensensemap data info' to get the detailed information of interesting points. </div>
+</template>
+  
+<template id="legaltextTemplate">
+  <div class="title">Legal Notice</div>
+    <div class="content">
+      Haojun Cai<br>
+      Department of Civil, Environmental and Geomatic Engineering<br>
+      ETH Zurich<br><br>
+      E-Mail: caihao@student.ethz.ch<br><br>
+      References<br>
+      openSenseMap data on 30/11/2019: https://opensensemap.org/
+</template>  
+  
+<template id="abouttextTemplate">
+  <div class="title">About us</div>
+  <div class="content"> I am a Geomatics master student of the Department of Civil, Environmental and Geomatic Engineering at ETH. The Webpage is the assignment in GeoSensors Lab of the course GIS III at ETH. The task aims to create a responsive Webpage with self-collected Sensebox data and other opensource data. It is supervised by Christian Sailer and David Rudi.
+  </div>
+</template>
+
+<template id="privacytextTemplate">
+  <div class="title">Privacy Notice</div>
+  <div class="content">
+  The Website does not collect any user data.
+  </div>
+</template>  
+  
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

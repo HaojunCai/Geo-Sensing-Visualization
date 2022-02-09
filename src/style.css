@@ -1,0 +1,69 @@
+html,
+body 
+{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Arial"
+}
+
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#datainfo {
+  position: absolute;
+  background-color: white;
+  opacity: 0.50;
+  font-size: 11px;
+  height: 11px;
+  width: 220px;
+  bottom: 17px;
+  left: 15px;
+}
+
+#fieldinfo {
+  position: absolute;
+  background-color: white;
+  opacity: 0.65;
+  font-size: 12px;
+  height: 75px;
+  width: 180px;
+  bottom: 20px;
+  right: 5px;
+}
+
+.expand-pane {
+  background-color: white;
+  padding: 10px;
+  width: 180%;
+}
+
+.item {
+  border: 1px solid gray;
+  height: 40px;
+  overflow: hidden;
+  transition: height 1s ease;
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.item.open {
+  height: 100%;
+}
+
+.title {
+  height: 40px;  
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.item:hover {
+  border-left: 3px solid steelblue;
+}
