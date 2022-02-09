@@ -1,4 +1,5 @@
 # Geographic Sensing and Visualization
+Author: Haojun Cai
 
 The webpage can be accessible at [link](https://codepen.io/haojuncai/full/ZEYLMqM).
 
